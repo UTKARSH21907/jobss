@@ -1,0 +1,102 @@
+
+.head {
+    font-family: "Mouse Memoirs", sans-serif;
+    font-size: 2rem;
+    transition: 1s;
+    cursor: pointer;
+    background-image: linear-gradient(45deg, #0e206e, #710202);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-decoration: none;
+  }
+.bg{
+    background-image:linear-gradient(rgba(46, 143, 160, 0.977), rgba(87, 144, 38, 0.758), rgb(136, 45, 45));
+    width: 100vw;
+    height: 100vh;
+    filter: blur(20px);
+    z-index: -1;
+}
+.bo{
+    position: relative;
+    top: -100vh;    
+}
+.rr{
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Ibarra Real Nova', serif;
+font-family: 'Oswald', sans-serif;
+text-shadow: 24px;
+}
+.rr:hover{
+    text-shadow: 3px 3px 3px rgb(179, 0, 255);
+    transition: 1s;
+}
+.code{
+    padding: 06vw 0px 0px 0px ;
+}
+.code input{
+           
+        position: relative;
+        left:20%;
+        height: 5vh;
+          width: 60vw;
+}
+.code label{
+    position:relative;
+    left:45%;
+    font-size: 22px;
+    text-align:center;
+    font-family: 'Ibarra Real Nova', serif;
+    font-family: 'Oswald', sans-serif;
+}
+.code select{
+    position: relative;
+    left:20%;
+    height: 5vh;
+    width: 60vw;
+}
+.exit{
+    text-align: center;
+    position: relative;
+    bottom: -24px;
+    font-size: 22px;
+    font-weight: bold;
+}
+.right{
+    text-align: center;
+    position: relative;
+    bottom: -29px;
+}
+#alert input{
+    text-align: center;
+    position: relative;
+    bottom: -26px;
+    left:45%;
+    border-radius:15%;
+    font-size:larger;
+    background-color: rgb(151, 59, 59);
+
+}
+
+.thank{
+    text-align: center;
+    font-size:5rem;
+    font-family: 'Dancing Script', cursive;
+    position: relative;
+    top: -50vh;
+    font-weight: bold;
+    background-image: linear-gradient(45deg, #00ffddbc, #ff00dd);
+    -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+    
+
+    
+}
+.course button{
+  position: relative;
+  left: 48%;
+  font-size: large;
+  border-radius: 20px;
+  top: -180px;
+  background-color: #4196f1;
+}

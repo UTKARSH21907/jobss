@@ -1,0 +1,63 @@
+body {
+  background-color: black;
+}
+.head {
+  font-family: "Mouse Memoirs", sans-serif;
+  font-size: 2rem;
+  transition: 1s;
+  cursor: pointer;
+  background-image: linear-gradient(45deg, #4dff00bc, #a200ffab);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-decoration: none;
+}
+.main table td img{
+       padding: 10vw 3vw 0px 4vw;
+       width: 17vw;
+       height: 35vh;
+       text-decoration: none;
+}
+.main table td span{
+       padding: 0px 10vw 0px 6vw;
+       color:rgba(255, 166, 0, 0.766);
+       font-size: 2rem;
+       font-family: "Mouse Memoirs", sans-serif;
+       text-align: center;
+       transition: 1s;
+       text-decoration: none;
+}
+.main table td span:hover{
+       transition: 2s;
+       background-image: linear-gradient(45deg, #00ffddbc, #ff00dd);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.main table td span a{
+       text-decoration: none;
+       color:rgba(255, 166, 0, 0.766);
+       font-size: 2rem;
+       font-family: "Mouse Memoirs", sans-serif;
+       text-align: center;
+       transition: 1s;
+       text-decoration: none;
+}
+.extra span a{
+        position: relative;
+       left: 40%;
+       top: 15vh; 
+       display: inline-block;
+       background: white;
+       width: 5vw;
+       height: 5vh;
+       text-align: center;
+       font-size: 2rem;
+       border: 2px solid black;
+       color: black;
+       text-decoration: none;
+}
+.extra span a:hover{
+       background-color: black;
+       background-image: linear-gradient(45deg, #00a2ffbc, #ff00ae);
+      -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

@@ -1,0 +1,43 @@
+body{background-color: rgb(46, 133, 133);
+
+}
+.head {
+    font-family: "Mouse Memoirs", sans-serif;
+    font-size: 2rem;
+    transition: 1s;
+    cursor: pointer;
+    background-image: linear-gradient(45deg, #0e206e, #710202);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-decoration: none;
+  }
+.code{
+    position: relative;
+    top: 11vh;
+    text-align: center;
+}
+.code label{
+    font-size: 28px;
+
+}
+.code input{
+    height: 5vh;
+    width: 50vw;
+}
+.sigh{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Ibarra Real Nova', serif;
+    font-family: 'Oswald', sans-serif;
+}
+.code select{
+    height: 5vh;
+    width: 50vw;
+}
+.btn{
+    text-align: center;
+    position: relative;
+    top: 15vh;
+
+}

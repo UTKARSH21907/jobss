@@ -1,0 +1,50 @@
+body{
+       background-image: linear-gradient(to bottom left, rgba(42, 72, 53, 0.552), rgb(26, 59, 65));
+       width: 100vw;
+       height: 100vh;
+}
+.head {
+       font-family: "Mouse Memoirs", sans-serif;
+       font-size: 2.5rem;
+       transition: 1s;
+       cursor: pointer;
+       background-image: linear-gradient(45deg, #0e206e, #710202);
+       -webkit-background-clip: text;
+       -webkit-text-fill-color: transparent;
+       text-decoration: none;
+     }
+     .main{
+       font-size: 3rem;
+       padding: 30vh 0px 0px 5vh;
+       font-family: 'Lobster', cursive;
+       color: orange;
+       transition: 1s;
+       display: inline-block;
+     }
+     .main:hover{
+       text-shadow: 5px 5px black;
+       transition: 1s;
+     }
+     .inp{
+       text-align: center;
+       justify-content: center;
+       align-items: center;
+       position: absolute;
+       top: 25vh;
+       left: 70vw;
+       background-color: rgba(95, 158, 160, 0.44);
+       width: 20vw;
+       height: 50vh;
+       font-family:'Poppins', sans-serif;
+       font-size: 2rem;
+       font-weight:bolder;
+       text-transform: uppercase;
+       filter: blur(5px);
+}
+.inp:hover{ 
+       transition: 0.8s;
+       box-shadow:7px 6px rgba(43, 43, 43, 0.266);
+       filter: blur(0px);
+}
+
+ 
